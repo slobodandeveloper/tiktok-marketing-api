@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Promopult\TikTokMarketingApi;
+namespace TikTokBusinessApi;
 
 use Psr\Http\Client\ClientInterface;
 
@@ -23,7 +23,7 @@ use Psr\Http\Client\ClientInterface;
  * @property Service\Images $images
  * @property Service\Video $video
  */
-final class Client implements ServiceFactoryInterface
+final class TiktokMarketingAPIClient implements ServiceFactoryInterface
 {
     private CredentialsInterface $credentials;
     private ClientInterface $httpClient;

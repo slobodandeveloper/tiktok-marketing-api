@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Promopult\TikTokMarketingApi;
+namespace TikTokBusinessApi;
 
 final class Credentials implements CredentialsInterface
 {
